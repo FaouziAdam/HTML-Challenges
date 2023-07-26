@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picasso table</title>
+</head>
+<body>
+    
+    <table bgcolor="black"   width="10%" height="50%">
+        <tr bgcolor="white">
+            <td rowspan="2">1</td>
+            <td rowspan="2">2</td>
+            <td rowspan="2" colspan="2" height="50" width="20">3</td>
+            <!-- <td>4</td> -->
+        </tr>
+        <tr bgcolor="white">
+            <!-- <td>5</td> -->
+            <!-- <td>6</td>
+            <td>7</td>
+            <td>8</td> -->
+        </tr>
+        </tr>
+        <tr bgcolor="white">
+            <td rowspan="2" colspan="2">9</td>
+            <td colspan="2">10</td>
+            <!-- <td>11</td>
+            <td>12</td> -->
+        </tr>
+        <tr bgcolor="white">
+            <td colspan="2">13</td>
+            <!-- <td>14</td> -->
+            <!-- <td>15</td>
+            <td>16</td> -->
+        </tr>
+    </table><br>
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="salutation">Salutations</label><br>
+            <select name="salutation" id="salutation">
+                <option value="none">--None--</option>
+                <option value="hello">Hello</option>
+                <option value="yo">yo</option>  
+            </select><br><br>
+            <label for="fname">First Name :</label>
+            <input type="text"> <br><br>
+            <label for="lname">Last Name :</label>
+            <input type="text"> <br><br>  
+            <label for="gender">Gender : </label>
+            <input type="radio">
+            <label for="male">Male</label>
+            <input type="radio">
+            <label for="female">Female</label><br><br>
+            <label for="email">Email :</label>
+            <input type="text"> <br><br>
+            <label for="datebirth">Date of Birth : </label>
+            <input type="date"><br><br>
+            <label for="adresse">Adresse : </label><br><br>
+            <textarea name="message" rows="10" cols="30"></textarea><br><br>
+            <button type="submit">Submit</button> 
+        </fieldset>
+    </form>
+</body>
+</html>
