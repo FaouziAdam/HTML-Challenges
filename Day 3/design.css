@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./1375487-phoenix-fantasy-digital-art-4k-pc-wallpaper.jpg);
+    background-size: cover;
+}
+p{
+    text-align: center;
+    color: rgb(375,166,116);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+div{
+    width: 600px;
+    margin-left: 30%;
+    margin-top: 2.5%;
+       
+}
+fieldset{
+    font-family: sans-serif;
+    border: solid black;
+    border-radius: 10%;
+    padding: 10%;
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: rgba(178, 178, 178, 70%);
+}
+legend{
+    margin-left: 21%;
+    padding: 2%;
+    font-weight: bold;
+    border: solid;
+    border-radius: 10%;
+    background-color: rgba(178, 178, 178, 70%);
+}
+button{
+    margin-left: 25%;
+    padding: 10px 30px;
+    background-color: white;
+    border: solid black; 
+    color: black;
+    font-weight: bold; 
+}
+button:hover{
+    background-color: rgb(245,165,106);
+    color: white;
+}
+.salut{
+    text-align: start;
+}
+
