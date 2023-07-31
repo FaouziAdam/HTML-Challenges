@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#logo{
+    background-color: black;
+    width: 150px;
+    height: 120px;
+}
+#navbarre{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+#navigation{
+    background-color: rgb(88, 125, 70);
+    width:90.15%;
+    height: 120px;
+    position: relative;
+    left: 150px;
+    top: -120px;
+    opacity: 80%;
+}
+#tablo{
+    background-color: rgb(88, 125, 70);
+    width: 70%;
+    height: 120px;
+}
+.cel{
+    background-color:rgb(88, 125, 70);
+    color: white;
+    text-align: center;
+}
+#bodypage{
+    position: relative;
+    top: 240px;
+}
+#theme{
+    background-color: rgb(88, 125, 70);
+    position: relative;
+    bottom: 120px;
+}
+#tabcenter{
+    width: 500px;
+    height: 200px;
+    border: solid black;
+    position: relative;
+    top: -625px;
+    left: 900px;
+    background-color: black;
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+}
+#btnlm{
+    padding: 20px;
+    position: relative;
+    top: 41px;
+    background-color: rgb(88, 125, 70);
+    color: white;
+    border: outset black;
+}
+#btnlm:hover{
+    background-color: rgba(88, 125, 70, 0.571);
+}
+#footpage{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    top: -164px;     
+}
+.box{
+    text-align: center;
+    width: 250px;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+#b-2{
+    background-color: rgb(88, 125, 70);
+    color: white;
+    padding: 2.5%;
+    width: 200px;
+}
+#b-2:hover{
+    background-color: rgba(88, 125, 70, 0.571);
+}
+#tablefoot{
+    margin-top: 3%;
+}
