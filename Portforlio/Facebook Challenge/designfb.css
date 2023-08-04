@@ -1,0 +1,84 @@
+*{
+    margin: 0;  
+    padding: 0;
+}
+body{
+    background-color: rgb(240, 242, 245);
+    font-family: "poppins", sans-serif;
+}
+div{
+    display: inline-block;
+    width: 600px;
+}
+#title{
+    margin-left: 10%;
+    margin-top: 20%;
+    top:50%;
+    transform: translateY(-34%);
+}
+#title h1{
+    font-size: 68px;
+    color: rgb(43, 119, 242)
+}
+#title p{
+    font-size: 30px;
+    color: rgb(33, 37, 41);
+}
+#login{
+    display: inline;
+    margin-left: 5%;
+}
+#logintab{
+    border: outset;
+    background-color: white;
+    width: 450px;
+    padding: 3%;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(169, 167, 167);
+}
+#login p{
+    font-size: 15px;
+}
+input{
+    padding-left: 2%;
+    width: 440px;
+    height: 45px;
+    border: outset;
+    border-radius: 3%;
+}
+#btnlog{
+    width: 440px;
+    height: 45px;
+    border: outset;
+    border-radius: 6px;
+    background-color: rgb(43, 119, 242);
+    color: white;
+    font-size: 18px;
+}
+#btnlog:hover{
+    background-color: rgba(43, 119, 242, 0.475);
+    cursor: pointer; 
+}
+a{
+    font-size: 14px;
+    color: rgb(43, 119, 242);
+}
+#btnca{
+    width: 160px;
+    height: 40px;
+    border: outset;
+    border-radius: 6px;
+    background-color: rgb(40, 167, 69);
+    color: white;
+    font-size: 15px;
+}
+#btnca:hover{
+    background-color: rgba(40, 167, 70, 0.438);
+    cursor: pointer;
+}
+#crea{
+    margin-left: 62%;
+}
+
+
+

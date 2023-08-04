@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav{
+    padding: 20px 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav div{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav div h5{
+    color: rgb(141, 140, 145);
+}
+#nav div h5:hover{
+    color: rgb(44, 38, 64);
+}
+#nav button{
+    padding: 10px 30px;
+    background-color: white;
+    color: rgb(44, 38, 64);
+}
+#nav button:hover{
+    background-color: rgb(44, 38, 64);
+    color:white;
+}
+#pres{
+    background-color: rgb(44, 38, 64);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 170px 0px 170px;
+}
+#pres div{
+    width: 600px;
+    /* border: solid white; */
+    padding: 80px 0;
+}
+#pres button{
+    padding: 10px 30px;
+    background-color: rgb(44, 38, 64);
+    border: solid white;
+    color: white;
+}
+#pres button:hover{
+    background-color: white;
+    color: rgb(44, 38, 64);
+}
+#main{
+    height: 1500px;
+    padding: 300px 170px 0 170px;
+}
+.m1{
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-top: 200px;
+}
+.m1 div{
+    width: 600px;
+}
+#main h1{
+    font-size: 70px;
+    color: rgb(44, 38, 64)
+}
+#main div p{
+    font-size: 20px;
+    padding-top: 10px;
+    color: rgb(44, 38, 64);
+}
+#main div h2{
+    color: rgb(44, 38, 64);
+}
+#main img{
+    padding: 20px 0;
+}
+.m2{
+    margin-top: 350px;
+    background-color: rgb(44, 38, 64);
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.m2 button{
+    padding: 10px 30px;
+    background-color: rgb(44, 38, 64);
+    border: solid white; 
+    color: white; 
+}
+.m2 button:hover{
+    background-color: white;
+    color: rgb(44, 38, 64);
+}
+#pdpg{
+    height: 500px;
+    background-color: rgb(250, 250, 250);
+    padding: 80px 170px 0px 170px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.logo div{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+@media (max-width:425px){
+
+}
